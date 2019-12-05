@@ -1,0 +1,80 @@
+body{
+	background-image: url('../../assets/img/mobil/99.jpg'); 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.section-padding {
+	padding: 30px 0;
+	margin-top: 12%;
+}
+@media only screen and (max-width:770px){
+	.section-padding {
+		padding: 30px 0;
+		margin-top: 18%;
+	}
+}
+@media only screen and (max-width:500px){
+	.section-padding {
+		padding: 30px 0;
+		margin-top: 25%;
+	}
+}
+@media only screen and (max-width:350px){
+	.section-padding {
+		padding: 30px 0;
+		margin-top: 35%;
+	}
+}
+.login-page-content {
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	text-align: center;
+	border-radius: 3px;
+	margin-bottom: 50px;
+}
+
+.login-form {
+	background-color: #ffd000;
+	padding: 30px 20px 15px;
+}
+.login-form h3 {
+	color: #000;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.login-form input,
+.login-form button {
+	background-color: transparent;
+	border: 1px solid #555;
+	color: #000;
+	margin: 10px 0;
+	padding: 10px 20px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 100%;
+}
+
+.login-form input:focus {
+	border-color: #fff;
+	background-color: white;
+}
+
+.log-btn button {
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.log-btn button:hover {
+	background-color: #222;
+	border-color: #222;
+	color: #fff;
+}
